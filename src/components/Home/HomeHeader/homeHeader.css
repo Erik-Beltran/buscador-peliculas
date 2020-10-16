@@ -1,0 +1,71 @@
+.homeHeader {
+  align-items: center;
+  display: flex;
+  height: 20vh;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 90%;
+}
+.homeHeader img {
+  width: 350px;
+}
+
+.homeSearch {
+  height: 40%;
+  width: 40%;
+  border-radius: 40px;
+  background: #353535;
+  position: relative;
+}
+.inputSearch {
+  background: transparent;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
+.inputSearch:focus {
+  outline: none;
+  border: 2px solid white;
+}
+.homeSearch button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  background: transparent;
+  right: 0;
+}
+
+.homeSearch i {
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .homeHeader {
+    flex-direction: column;
+  }
+  .homeHeader img{
+    width: 300px;
+  }
+
+  .homeSearch {
+
+    height: 30%;
+    width: 90%;
+  }
+  .inputSearch {
+    font-size: 22px;
+  }
+  .homeSearch i {
+    font-size: 22px;
+  }
+}

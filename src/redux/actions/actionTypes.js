@@ -1,0 +1,3 @@
+export const GET_MOVIES = "GET_MOVIES";
+export const LOAD_MORE_MOVIES = 'LOAD_MORE_MOVIES';
+export const GET_MOVIE_INFO= "GET_MOVIE_INFO"

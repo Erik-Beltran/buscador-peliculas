@@ -1,0 +1,41 @@
+.homeMovies{
+    width: 90%;
+    margin: auto;
+    padding: 2.5em 0;
+    background: white;
+    padding: 5%;
+  }
+
+  .homeMovies h2{
+    font-family: 'Abel', sans-serif;
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+  .movieList{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .movieList-item{
+      width: 22%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin-bottom: 2.5em;
+  }
+  .movieList-item:hover{
+      border: 4px solid gray;
+      background:rgba(0, 0, 0, 0.5);
+  }
+  .movieList a{
+      text-decoration: none;
+      text-align: center;
+      color: black;
+  }
+
+  
+  @media (max-width: 767px) {
+    .movieList-item{
+        width: 95%;
+    }
+  }

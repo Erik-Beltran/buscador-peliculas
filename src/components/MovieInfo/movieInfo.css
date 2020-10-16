@@ -1,0 +1,87 @@
+.movieInfo {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.movieInfoHeader {
+  align-items: center;
+  display: flex;
+  height: 20%;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 90%;
+}
+.reactMovie {
+  width: 350px;
+}
+
+.movieInfoContaier {
+  width: 100%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.movieinfoContent {
+  margin: auto;
+  width: 90%;
+  height: 95%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+}
+.movieinfoImage {
+  width: 30%;
+  height: 100%;
+}
+.movieinfoImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.movieInfoTexts {
+  width: 70%;
+  color: white;
+  font-family: "Abel", sans-serif;
+  padding: 40px;
+}
+.movieInfoTexts h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.movieInfoTexts h3 {
+  margin-bottom: 20px;
+}
+
+.movieInfoTexts p {
+  margin-bottom: 40px;
+}
+
+.movieInfoTexts h3 {
+  margin-bottom: 0;
+}
+
+@media(max-width:767px){
+  .movieInfo {
+    height: auto;  }
+  .movieInfoHeader {
+    flex-direction: column;
+  }
+  .reactMovie{
+    width: 300px;
+  }
+  .movieInfoContaier{
+padding: 5%;
+  }
+  .movieinfoContent {
+   flex-direction: column
+    }
+  .movieinfoImage{
+    width: 100%;
+    margin: auto;
+  }
+  .movieInfoTexts{
+    width: 100%;
+    padding: 0;
+  }
+}
